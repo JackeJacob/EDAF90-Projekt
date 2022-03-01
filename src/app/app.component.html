@@ -1,11 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div>
   <h1>
-    Welcome to {{ title }}!!
+    Welcome to {{ title }}!
   </h1>
   <img width="300" alt="movies" src="/images/Dog.jpg" />
 </div>
 
-<p><a href="/app/watchlist/watchlist.html"> Watchlist </a></p>
-<p><a href="/app/note/note.html"> Notes </a></p>
-<p><a href="/app/view-film/viewfilm.html"> View film </a></p>
+<div>
+  <p><a href="/app/watchlist/watchlist.html"> Watchlist </a></p>
+  <p><a href="/app/note/note.html"> Notes </a></p>
+  <p><a href="/app/view-film/viewfilm.html"> View film </a></p>
+</div>
+
+<div>
+  <!-- Search form -->
+  <form class="form-inline md-form form-sm active-pink active-pink-2">
+    <mdb-icon fas icon="search" aria-hidden="true"></mdb-icon>
+    <input
+      class="form-control form-control-sm ml-3 w-75"
+      type="text"
+      placeholder="Search"
+      aria-label="Search"
+      mdbInput
+    />
+  </form>
+</div>
