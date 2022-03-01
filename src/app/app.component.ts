@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { NavbarModule, WavesModule, ButtonsModule } from "angular-bootstrap-md";
 
 @Component({
   selector: "app-root",
@@ -6,5 +7,5 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = "CodeSandbox";
+  title = "Your Movie Library";
 }
